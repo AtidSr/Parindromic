@@ -8,7 +8,6 @@ const longestPalindrome = (str) => {
 
     let value = even.length > odd.length ? even : odd
     if(value.length > longestLength) {
-      console.log('ssss', value.length)
       longestLength = value.length
       result = value;
     }
@@ -25,4 +24,4 @@ const expandFromCenter = (str, left, right) => {
   return str.slice(left + 1,right)
 }
 
-longestPalindrome("SQQSYYSQQS")
+longestPalindrome("cbbd")
